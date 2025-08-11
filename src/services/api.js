@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance with a base URL
 const api = axios.create({
-  baseURL: '/api', // Your backend API URL
+   baseURL: 'https://dbms-lab-backend.onrender.com/api', // Your backend API URL
 });
 
 // Use an interceptor to add the auth token to every request
